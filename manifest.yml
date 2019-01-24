@@ -1,0 +1,8 @@
+---
+applications:
+- name: azure-devops-test
+  memory: 128M
+  instances: 1
+  buildpack: dotnet_core_buildpack
+  host: azure-devops-test
+  domain: cfapps.io
